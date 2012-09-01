@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello World!
+title: WELCOME TO REVOLC'S BLOG!
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
