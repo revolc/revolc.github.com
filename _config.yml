@@ -81,7 +81,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : revolc-githubblog 
+      short_name : revolcsblog
     livefyre :
       site_id : 123
     intensedebate :
