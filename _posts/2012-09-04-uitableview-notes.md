@@ -17,4 +17,4 @@ tags: [iOS, notes]
 
 	    [theTableView deselectRowAtIndexPath:indexPath animated:NO];
 
-在didSelectRowAtIndexPath代理里调用上述方法。
+该调用需知道row的indexPath，在didSelectRowAtIndexPath代理里调用上述方法。
