@@ -25,22 +25,23 @@ cocos2d一开始是实现在python上的，cocos2d-python，借助pyglet来实�
 本文着重于cocos2d在iOS上的安装。
 
 1. 获取源码
-
-		$>git clone https://github.com/cocos2d/cocos2d-iphone.git
-
-
-或者去这个链接<https://github.com/cocos2d/cocos2d-iphone>下zip包，获取cocos2d-iphone的源码。
-
-2. 安装模板
 	
-cocos2d-iphone的源码里带了xcode的工程模板，使用模板可以快速方便地创建游戏工程。
+	```
+$>git clone https://github.com/cocos2d/cocos2d-iphone.git
+	```
 
-下载完成后，进入到cocos2d-iphone目录下，执行安装模板的脚本
+	或者去这个链接<https://github.com/cocos2d/cocos2d-iphone>下zip包，获取cocos2d-iphone的源码。
 
-		
-		$> cd cocos2d-iphone
-		$> ./install-templates.sh -f
-		
+2. 安装模板 
+
+	cocos2d-iphone的源码里带了xcode的工程模板，使用模板可以快速方便地创建游戏工程。
+
+	下载完成后，进入到cocos2d-iphone目录下，执行安装模板的脚本
+
+	```	
+$> cd cocos2d-iphone
+$> ./install-templates.sh -f
+	```	
 		
 3. 跑个Hello World!
 
