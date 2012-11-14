@@ -27,7 +27,7 @@ cocos2d一开始是实现在python上的，cocos2d-python，借助pyglet来实�
 1. 获取源码
 	
 	```
-$>git clone https://github.com/cocos2d/cocos2d-iphone.git
+	$>git clone https://github.com/cocos2d/cocos2d-iphone.git
 	```
 
 	或者去这个链接<https://github.com/cocos2d/cocos2d-iphone>下zip包，获取cocos2d-iphone的源码。
@@ -39,8 +39,8 @@ $>git clone https://github.com/cocos2d/cocos2d-iphone.git
 	下载完成后，进入到cocos2d-iphone目录下，执行安装模板的脚本
 
 	```	
-$> cd cocos2d-iphone
-$> ./install-templates.sh -f
+	$> cd cocos2d-iphone
+	$> ./install-templates.sh -f
 	```	
 		
 3. 跑个Hello World!
