@@ -25,7 +25,7 @@ tags: [objective-C, notes]
 文档里用CFString进行举例说明：
 
 
-![release](/assets/images/opaquetypes.png)
+![release](/assets/images/opaque_type/opaquetypes.png)
 
 如上图所示，CFString这一structure/type里存在相应的field，但操作这一class，包括初始化、读取属性、复制、销毁等，都是用CFString打头的函数来的（而不是对CFString“对象”发消息来的）。
 
