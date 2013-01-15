@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "cocos2d project dependency"
+title: "以依赖工程的方式配置cocos2d库"
 description: ""
 category: Programming/cocos2d
 tags: [cocos2d, notes, iOS, Game Development]

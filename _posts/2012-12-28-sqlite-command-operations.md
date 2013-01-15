@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "sqlite command operations"
+title: "SQLite命令操作"
 description: ""
 category: Programming/database
 tags: [SQLite, commands]

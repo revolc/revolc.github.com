@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "the use of lipo"
+title: "lipo命令使用"
 description: ""
 category: Objective-C/tools
 tags: [lipo, Objective-C, commands]

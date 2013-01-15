@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ios compilation error"
+title: "ios编译错误总结"
 description: ""
 category: Programming/iOS
 tags: [objective-C, Xcode, notes, compilation error ]
