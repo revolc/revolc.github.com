@@ -3,7 +3,7 @@ layout: post
 title: "ios编译错误总结"
 description: ""
 category: Programming/iOS
-tags: [objective-C, Xcode, notes, compilation error ]
+tags: [Objective-C, Xcode, notes, compilation error ]
 ---
 {% include JB/setup %}
 

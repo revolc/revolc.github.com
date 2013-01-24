@@ -3,7 +3,7 @@ layout: post
 title: "Opaque Type"
 description: ""
 category: Programming/iOS
-tags: [objective-C, notes]
+tags: [Objective-C, notes]
 ---
 {% include JB/setup %}
 
