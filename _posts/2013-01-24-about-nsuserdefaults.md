@@ -29,9 +29,16 @@ NSUserDefaults（[官方文档][1]）普遍用在存储用户定制数值，或�
 
 #### Trap
 
-在浏览NSUserDefaults的API时，发现有一个这个方法`initWithUser:`，本来以为这个方法会根据自己提供的username来创建个不同于系统维护的唯一的`standardUserDefaults`，结果发现是自己太天真，[这个SO帖][3]就解释了这个问题。
+1. init方法
 
-其实这个方法是`Available in OS X v10.0 and later`的，是给超级用户以一个用户来载入UserDefaults用的。
+	在浏览NSUserDefaults的API时，发现有一个这个方法`initWithUser:`，本来以为这个方法会根据自己提供的username来创建个不同于系统维护的唯一的`standardUserDefaults`，结果发现是自己太天真，[这个SO帖][3]就解释了这个问题。
+
+	其实这个方法是`Available in OS X v10.0 and later`的，是给超级用户以一个用户来载入UserDefaults用的。
+	
+2. mutability
+
+	对NSUserDefaults对象发`valueForKey:`消息，返回的数据是inmutable的，尽管`setValue:forKey:`时传入的可能是mutable的数据对象。
+
 
 [1]: http://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Classes/NSUserDefaults_Class/Reference/Reference.html "NSUserDefaults Class Reference"
 
