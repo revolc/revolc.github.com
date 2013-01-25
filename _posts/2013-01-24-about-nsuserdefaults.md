@@ -9,7 +9,7 @@ tags: [Objective-C, API]
 
 #### 概述
 
-NSUserDefaults（[官方文档][1]）普遍用在存储用户定制数值，或者程序中需要存一个数据的场景。当NSUserDefaults写入文件后，其值会存在应用沙盒下的`Library/com.xxx.AppName.plist`文件里（`com.xxx.AppName`是应用的标识符）。可以看到，这个文件是个plist文件，因此，它可以存plist可以存的所有数据类型：NSData, NSString, NSNumber, NSDate, NSArray, 或者NSDictionary。
+NSUserDefaults（[官方文档][1]）普遍用在存储用户定制数值，或者程序中需要存一个数据的场景。当NSUserDefaults写入文件后，其值会存在应用沙盒下的`Library/Preferences/com.xxx.AppName.plist`文件里（`com.xxx.AppName`是应用的标识符）。可以看到，这个文件是个plist文件，因此，它可以存plist可以存的所有数据类型：NSData, NSString, NSNumber, NSDate, NSArray, 或者NSDictionary。
 
 它是针对每个应用适用的，即，只作用于自身应用内。sandbox的安全机制保证，它不能修改其他应用的值，也不会被其他应用修改。在程序里使用时，一般通过下面语句获取NSUserDefaults的引用：
 
