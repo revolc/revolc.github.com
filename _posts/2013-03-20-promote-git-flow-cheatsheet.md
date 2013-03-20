@@ -29,6 +29,8 @@ git flow模型由Vincent Driessen提出，[这里][1]是官方的日志。
 
 如果看了上面这些还是不甚明白的话，网上有个开发都整理出的cheatsheet的东西很有价值，可以[参考下][6]。
 
+还找到一篇很好的[总结][7]，带场景描述。
+
 [1]: http://nvie.com/posts/a-successful-git-branching-model/ "Official site"
 
 [2]: git-scm.com/	"git official site"
@@ -41,3 +43,5 @@ git flow模型由Vincent Driessen提出，[这里][1]是官方的日志。
 
 
 [6]: http://danielkummer.github.com/git-flow-cheatsheet/ "cheatsheet"
+
+[7]: http://fann.im/blog/2012/03/12/git-flow-notes/	"a great note for git flow"
