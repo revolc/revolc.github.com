@@ -10,7 +10,9 @@ tags: [UITableView,　iOS, API, Xcode]
 ## UITableView更新在iOS6.0
 
 0. 使用UITableView，或者UITableViewController基本步骤都差不多，后者只不是一个包装了UITableView的UIViewController，意义在于更方便写代码吧。
-使用UITableView都需要设置下`<UITableViewDataSource>`，用来给tableview喂数据，这个`<UITableViewDataSource>`里要做的事是：
+
+	使用UITableView都需要设置下`<UITableViewDataSource>`，用来给tableview喂数据，这个`<UITableViewDataSource>`里要做的事是：
+
 
 	a. 告诉上层的UITableView我有几个section，几行数据要展示：`- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;`
 	
@@ -53,3 +55,4 @@ tags: [UITableView,　iOS, API, Xcode]
 		 forCellReuseIdentifier:(NSString *)identifier NS_AVAILABLE_IOS(6_0);
 		
 	在UITableView初始化后，获得UITableView对象的引用，调用上述2个方法中的任一个，视乎采用xib方式或者代码的方式。
+
