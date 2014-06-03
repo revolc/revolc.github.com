@@ -38,6 +38,8 @@ Jenkins的使用so easy，去其[官网]("http://jenkins-ci.org/")上下载jenki
 
 在Jenkins界面下选"Manange Jenkins"->"Manage Plugin"，可以列出插件界面，在这里面选相要的插件，安装后重启Jenkins就OK了。
 
+注意，第一次安装完，第一次进入插件列表界面，是没有插件可以下载的，显示：No available。其实就是刚安装的Jenkins实例还没有从Jenkins插件库更新列表导致的。所以，需要手动更新下插件列表先：Manage Jenkins->Advanced->Check now。
+
 #### Job的创建
 
 Jenkins里一个编译任务就是一个Job，配置好一个Job，当编码完成时，启动它，Jenkins就帮我们把编译、打包、发布的任务都做了。
